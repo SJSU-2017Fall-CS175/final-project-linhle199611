@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124285170457",
+    "project_id": "firebase-black-road"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124285170457:android:45d32a6ef2204ac2",
+        "android_client_info": {
+          "package_name": "edu.sjsu.linhle01.blackroad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124285170457-13m501i87s5hfvqincluthlhr33har43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.sjsu.linhle01.blackroad",
+            "certificate_hash": "1c904dfa5b1153d16855b70112a1d29e27129c8e"
+          }
+        },
+        {
+          "client_id": "124285170457-brfnctja32kja35eh584etq1ro1aq1c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0EEk24Pu1oSqWLY0DpfTM7YGpwXN44Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

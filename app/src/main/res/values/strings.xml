@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BlackRoad</string>
+    <string-array name="location_array">
+        <item>Los Angeles</item>
+        <item>Sydney</item>
+        <item>Barcelona</item>
+        <item>Ho Chi Minh city</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.sjsu.linhle01.blackroad.Home"
+    android:screenOrientation="nosensor"
+    >
+
+    <Button
+        android:id="@+id/infor"
+        android:onClick="infor"
+        android:layout_width="113dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="290dp"
+        android:text="Infor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.483" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="423dp"
+        android:layout_height="769dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="243dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="504dp"
+        android:fontFamily="casual"
+        android:text="Black Road"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:visibility="gone"
+        android:onClick="play"
+        android:layout_width="113dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="401dp"
+        android:fadingEdge="horizontal|vertical"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:fadingEdge="horizontal|vertical" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/bn_login"
+        android:layout_width="244dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"></com.google.android.gms.common.SignInButton>
+
+    <LinearLayout
+        android:id="@+id/prof_section"
+        android:layout_width="239dp"
+        android:layout_height="199dp"
+        android:layout_marginBottom="74dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="330dp">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.33"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_weight="0.73"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_light" />
+
+        <Button
+            android:id="@+id/bn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log out" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
